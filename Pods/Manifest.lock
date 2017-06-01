@@ -1,0 +1,42 @@
+PODS:
+  - KxMenu (1)
+  - pop (1.0.9)
+  - PopMenu (2.4):
+    - pop
+    - XHRealTimeBlur
+  - RongCloudIM (2.8.12):
+    - RongCloudIM/CallKit (= 2.8.12)
+    - RongCloudIM/CallLib (= 2.8.12)
+    - RongCloudIM/IMKit (= 2.8.12)
+    - RongCloudIM/IMLib (= 2.8.12)
+    - RongCloudIM/RedPacket (= 2.8.12)
+    - RongCloudIM/Sticker (= 2.8.12)
+  - RongCloudIM/CallKit (2.8.12):
+    - RongCloudIM/CallLib
+    - RongCloudIM/IMKit
+  - RongCloudIM/CallLib (2.8.12):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMKit (2.8.12):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.12)
+  - RongCloudIM/RedPacket (2.8.12):
+    - RongCloudIM/IMKit
+  - RongCloudIM/Sticker (2.8.12):
+    - RongCloudIM/IMKit
+  - XHRealTimeBlur (1.7)
+
+DEPENDENCIES:
+  - KxMenu
+  - PopMenu
+  - RongCloudIM
+
+SPEC CHECKSUMS:
+  KxMenu: c025365712f55fa99feb7830fbb7dea0e912be72
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  PopMenu: 26b97baeaf250070f4f61b93727ca86d127d7bc5
+  RongCloudIM: 13599772038afa20dc62aff70c620b9305e6ac96
+  XHRealTimeBlur: 661fadd5691ba2d349758e8fd5fbdb499ac55f8c
+
+PODFILE CHECKSUM: c61c2ad50abd7f61c776766ebb15769fc7bcf454
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E19C3A31ED3E41C00CD1A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E19C3A21ED3E41C00CD1A2E /* AppDelegate.swift */; };
+		3E19C3A51ED3E41C00CD1A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E19C3A41ED3E41C00CD1A2E /* ViewController.swift */; };
+		3E19C3A81ED3E41C00CD1A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E19C3A61ED3E41C00CD1A2E /* Main.storyboard */; };
+		3E19C3AA1ED3E41C00CD1A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E19C3A91ED3E41C00CD1A2E /* Assets.xcassets */; };
+		3E19C3AD1ED3E41C00CD1A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E19C3AB1ED3E41C00CD1A2E /* LaunchScreen.storyboard */; };
+		3E21C93B1ED6BAF000246E2F /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21C93A1ED6BAF000246E2F /* ConversationListViewController.swift */; };
+		3E21C93E1ED71BE000246E2F /* conversation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E21C93C1ED71BE000246E2F /* conversation.storyboard */; };
+		3E21C9401ED72C3500246E2F /* service.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E21C93F1ED72C3500246E2F /* service.storyboard */; };
+		3E4918DA1ED42A4500B99FF9 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 3E4918D91ED42A4500B99FF9 /* PodFile */; };
+		3E4918DC1ED44E8200B99FF9 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4918DB1ED44E8200B99FF9 /* ConversationViewController.swift */; };
+		A38BAFE07FF023C2932C1A66 /* libPods-IMcloudTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD0C55A01A4D50155715B29 /* libPods-IMcloudTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E19C39F1ED3E41C00CD1A2E /* IMcloudTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMcloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E19C3A21ED3E41C00CD1A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E19C3A41ED3E41C00CD1A2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E19C3A71ED3E41C00CD1A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E19C3A91ED3E41C00CD1A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E19C3AC1ED3E41C00CD1A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E19C3AE1ED3E41C00CD1A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E21C93A1ED6BAF000246E2F /* ConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
+		3E21C93D1ED71BE000246E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/conversation.storyboard; sourceTree = "<group>"; };
+		3E21C93F1ED72C3500246E2F /* service.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = service.storyboard; sourceTree = "<group>"; };
+		3E4918D41ED4232E00B99FF9 /* IMcloudTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMcloudTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		3E4918D91ED42A4500B99FF9 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3E4918DB1ED44E8200B99FF9 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		7CD0C55A01A4D50155715B29 /* libPods-IMcloudTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMcloudTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C46E39AA60B5516405C1D0 /* Pods-IMcloudTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMcloudTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMcloudTest/Pods-IMcloudTest.release.xcconfig"; sourceTree = "<group>"; };
+		DC797E5795102396A1D2A226 /* Pods-IMcloudTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMcloudTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMcloudTest/Pods-IMcloudTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E19C39C1ED3E41C00CD1A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38BAFE07FF023C2932C1A66 /* libPods-IMcloudTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED34D501C7D7B56C12F5381 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC797E5795102396A1D2A226 /* Pods-IMcloudTest.debug.xcconfig */,
+				83C46E39AA60B5516405C1D0 /* Pods-IMcloudTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E19C3961ED3E41C00CD1A2E = {
+			isa = PBXGroup;
+			children = (
+				3E19C3A11ED3E41C00CD1A2E /* IMcloudTest */,
+				3E19C3A01ED3E41C00CD1A2E /* Products */,
+				0ED34D501C7D7B56C12F5381 /* Pods */,
+				ACC8C7574FCFA80EDB7961CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E19C3A01ED3E41C00CD1A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E19C39F1ED3E41C00CD1A2E /* IMcloudTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E19C3A11ED3E41C00CD1A2E /* IMcloudTest */ = {
+			isa = PBXGroup;
+			children = (
+				3E4918D91ED42A4500B99FF9 /* PodFile */,
+				3E19C3A21ED3E41C00CD1A2E /* AppDelegate.swift */,
+				3E19C3A41ED3E41C00CD1A2E /* ViewController.swift */,
+				3E4918DB1ED44E8200B99FF9 /* ConversationViewController.swift */,
+				3E21C93A1ED6BAF000246E2F /* ConversationListViewController.swift */,
+				3E19C3A61ED3E41C00CD1A2E /* Main.storyboard */,
+				3E21C93F1ED72C3500246E2F /* service.storyboard */,
+				3E21C93C1ED71BE000246E2F /* conversation.storyboard */,
+				3E19C3A91ED3E41C00CD1A2E /* Assets.xcassets */,
+				3E19C3AB1ED3E41C00CD1A2E /* LaunchScreen.storyboard */,
+				3E19C3AE1ED3E41C00CD1A2E /* Info.plist */,
+				3E4918D41ED4232E00B99FF9 /* IMcloudTest-Bridging-Header.h */,
+			);
+			path = IMcloudTest;
+			sourceTree = "<group>";
+		};
+		ACC8C7574FCFA80EDB7961CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CD0C55A01A4D50155715B29 /* libPods-IMcloudTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E19C39E1ED3E41C00CD1A2E /* IMcloudTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E19C3B11ED3E41C00CD1A2E /* Build configuration list for PBXNativeTarget "IMcloudTest" */;
+			buildPhases = (
+				5872A5CBC860D03C81BE4BC2 /* [CP] Check Pods Manifest.lock */,
+				3E19C39B1ED3E41C00CD1A2E /* Sources */,
+				3E19C39C1ED3E41C00CD1A2E /* Frameworks */,
+				3E19C39D1ED3E41C00CD1A2E /* Resources */,
+				A17C96E8C3B640EB60039DEE /* [CP] Embed Pods Frameworks */,
+				ACA3B79943A2F740D9036EAD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMcloudTest;
+			productName = IMcloudTest;
+			productReference = 3E19C39F1ED3E41C00CD1A2E /* IMcloudTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E19C3971ED3E41C00CD1A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Anson;
+				TargetAttributes = {
+					3E19C39E1ED3E41C00CD1A2E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PDLH6HJG87;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3E19C39A1ED3E41C00CD1A2E /* Build configuration list for PBXProject "IMcloudTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E19C3961ED3E41C00CD1A2E;
+			productRefGroup = 3E19C3A01ED3E41C00CD1A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E19C39E1ED3E41C00CD1A2E /* IMcloudTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E19C39D1ED3E41C00CD1A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E19C3AD1ED3E41C00CD1A2E /* LaunchScreen.storyboard in Resources */,
+				3E19C3AA1ED3E41C00CD1A2E /* Assets.xcassets in Resources */,
+				3E4918DA1ED42A4500B99FF9 /* PodFile in Resources */,
+				3E19C3A81ED3E41C00CD1A2E /* Main.storyboard in Resources */,
+				3E21C9401ED72C3500246E2F /* service.storyboard in Resources */,
+				3E21C93E1ED71BE000246E2F /* conversation.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5872A5CBC860D03C81BE4BC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A17C96E8C3B640EB60039DEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMcloudTest/Pods-IMcloudTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACA3B79943A2F740D9036EAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMcloudTest/Pods-IMcloudTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E19C39B1ED3E41C00CD1A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E19C3A51ED3E41C00CD1A2E /* ViewController.swift in Sources */,
+				3E21C93B1ED6BAF000246E2F /* ConversationListViewController.swift in Sources */,
+				3E19C3A31ED3E41C00CD1A2E /* AppDelegate.swift in Sources */,
+				3E4918DC1ED44E8200B99FF9 /* ConversationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E19C3A61ED3E41C00CD1A2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E19C3A71ED3E41C00CD1A2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E19C3AB1ED3E41C00CD1A2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E19C3AC1ED3E41C00CD1A2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3E21C93C1ED71BE000246E2F /* conversation.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E21C93D1ED71BE000246E2F /* Base */,
+			);
+			name = conversation.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E19C3AF1ED3E41C00CD1A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E19C3B01ED3E41C00CD1A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E19C3B21ED3E41C00CD1A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC797E5795102396A1D2A226 /* Pods-IMcloudTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PDLH6HJG87;
+				INFOPLIST_FILE = IMcloudTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ans.IMcloudTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IMcloudTest/IMcloudTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3E19C3B31ED3E41C00CD1A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C46E39AA60B5516405C1D0 /* Pods-IMcloudTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PDLH6HJG87;
+				INFOPLIST_FILE = IMcloudTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ans.IMcloudTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IMcloudTest/IMcloudTest-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E19C39A1ED3E41C00CD1A2E /* Build configuration list for PBXProject "IMcloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E19C3AF1ED3E41C00CD1A2E /* Debug */,
+				3E19C3B01ED3E41C00CD1A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E19C3B11ED3E41C00CD1A2E /* Build configuration list for PBXNativeTarget "IMcloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E19C3B21ED3E41C00CD1A2E /* Debug */,
+				3E19C3B31ED3E41C00CD1A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E19C3971ED3E41C00CD1A2E /* Project object */;
+}
