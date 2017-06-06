@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>JSAnimatedImagesView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>KxMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MSWeakTimer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,7 +42,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6CD6A859BD526F89D386EB7D1F5CC35F</key>
+		<key>43892F2BF02788C6CE6D0BEAEAFAF8E9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,17 +52,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C268EE7ECBE4BEAD04DA2D6FF2610B93</key>
+		<key>85165221292FE1A046CB838436F7425F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E600479837F924C8226FE202E0CB899D</key>
+		<key>99A16F94AC4EE1638356358AF5D364CA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F17F743CFAE5CA8322DAC5AB820A140B</key>
+		<key>B2AF705C78AC0E3D0CF4AAEF516C41BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8715C3669BAB77A0CA15E0315DDF8EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8B2059FB067266BC8FE20FB98C9FE25</key>
 		<dict>
 			<key>primary</key>
 			<true/>

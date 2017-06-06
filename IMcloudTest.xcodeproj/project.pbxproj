@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E0E34FF1EE1C8C200F07497 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E34FE1EE1C8C200F07497 /* LoginViewController.swift */; };
+		3E0E35011EE1F6B700F07497 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E35001EE1F6B700F07497 /* RoundImageView.swift */; };
 		3E19C3A31ED3E41C00CD1A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E19C3A21ED3E41C00CD1A2E /* AppDelegate.swift */; };
 		3E19C3A51ED3E41C00CD1A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E19C3A41ED3E41C00CD1A2E /* ViewController.swift */; };
 		3E19C3A81ED3E41C00CD1A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E19C3A61ED3E41C00CD1A2E /* Main.storyboard */; };
@@ -17,10 +19,14 @@
 		3E21C9401ED72C3500246E2F /* service.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E21C93F1ED72C3500246E2F /* service.storyboard */; };
 		3E4918DA1ED42A4500B99FF9 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 3E4918D91ED42A4500B99FF9 /* PodFile */; };
 		3E4918DC1ED44E8200B99FF9 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4918DB1ED44E8200B99FF9 /* ConversationViewController.swift */; };
+		3EF86D611EE6B19400467E68 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF86D5F1EE6B19400467E68 /* Login.storyboard */; };
+		3EF86D631EE6B3FD00467E68 /* RegTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF86D621EE6B3FD00467E68 /* RegTableViewController.swift */; };
 		A38BAFE07FF023C2932C1A66 /* libPods-IMcloudTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD0C55A01A4D50155715B29 /* libPods-IMcloudTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E0E34FE1EE1C8C200F07497 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3E0E35001EE1F6B700F07497 /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
 		3E19C39F1ED3E41C00CD1A2E /* IMcloudTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMcloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E19C3A21ED3E41C00CD1A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E19C3A41ED3E41C00CD1A2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +40,8 @@
 		3E4918D41ED4232E00B99FF9 /* IMcloudTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMcloudTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		3E4918D91ED42A4500B99FF9 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3E4918DB1ED44E8200B99FF9 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		3EF86D601EE6B19400467E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		3EF86D621EE6B3FD00467E68 /* RegTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegTableViewController.swift; sourceTree = "<group>"; };
 		7CD0C55A01A4D50155715B29 /* libPods-IMcloudTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMcloudTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C46E39AA60B5516405C1D0 /* Pods-IMcloudTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMcloudTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMcloudTest/Pods-IMcloudTest.release.xcconfig"; sourceTree = "<group>"; };
 		DC797E5795102396A1D2A226 /* Pods-IMcloudTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMcloudTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMcloudTest/Pods-IMcloudTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +94,11 @@
 				3E19C3A41ED3E41C00CD1A2E /* ViewController.swift */,
 				3E4918DB1ED44E8200B99FF9 /* ConversationViewController.swift */,
 				3E21C93A1ED6BAF000246E2F /* ConversationListViewController.swift */,
+				3E0E34FE1EE1C8C200F07497 /* LoginViewController.swift */,
+				3EF86D621EE6B3FD00467E68 /* RegTableViewController.swift */,
+				3E0E35001EE1F6B700F07497 /* RoundImageView.swift */,
 				3E19C3A61ED3E41C00CD1A2E /* Main.storyboard */,
+				3EF86D5F1EE6B19400467E68 /* Login.storyboard */,
 				3E21C93F1ED72C3500246E2F /* service.storyboard */,
 				3E21C93C1ED71BE000246E2F /* conversation.storyboard */,
 				3E19C3A91ED3E41C00CD1A2E /* Assets.xcassets */,
@@ -171,6 +183,7 @@
 			files = (
 				3E19C3AD1ED3E41C00CD1A2E /* LaunchScreen.storyboard in Resources */,
 				3E19C3AA1ED3E41C00CD1A2E /* Assets.xcassets in Resources */,
+				3EF86D611EE6B19400467E68 /* Login.storyboard in Resources */,
 				3E4918DA1ED42A4500B99FF9 /* PodFile in Resources */,
 				3E19C3A81ED3E41C00CD1A2E /* Main.storyboard in Resources */,
 				3E21C9401ED72C3500246E2F /* service.storyboard in Resources */,
@@ -236,7 +249,10 @@
 				3E19C3A51ED3E41C00CD1A2E /* ViewController.swift in Sources */,
 				3E21C93B1ED6BAF000246E2F /* ConversationListViewController.swift in Sources */,
 				3E19C3A31ED3E41C00CD1A2E /* AppDelegate.swift in Sources */,
+				3E0E34FF1EE1C8C200F07497 /* LoginViewController.swift in Sources */,
 				3E4918DC1ED44E8200B99FF9 /* ConversationViewController.swift in Sources */,
+				3E0E35011EE1F6B700F07497 /* RoundImageView.swift in Sources */,
+				3EF86D631EE6B3FD00467E68 /* RegTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +281,14 @@
 				3E21C93D1ED71BE000246E2F /* Base */,
 			);
 			name = conversation.storyboard;
+			sourceTree = "<group>";
+		};
+		3EF86D5F1EE6B19400467E68 /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF86D601EE6B19400467E68 /* Base */,
+			);
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

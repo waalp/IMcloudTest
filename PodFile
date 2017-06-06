@@ -3,4 +3,5 @@ target 'IMcloudTest' do
 pod 'RongCloudIM'
 pod 'KxMenu'
 pod 'PopMenu'
+pod 'JSAnimatedImagesView'
 end
