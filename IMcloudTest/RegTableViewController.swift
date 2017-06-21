@@ -9,6 +9,10 @@
 import UIKit
 
 class RegTableViewController: UITableViewController {
+    var (userOK,mailOK,passOK) = (false,false,false)
+    @IBOutlet weak var usertext: UITextBox!
+    @IBOutlet weak var mailtext: UITextBox!
+    @IBOutlet weak var password: UITextBox!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +22,67 @@ class RegTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.done, target: self, action: nil)
+        self.navigationItem.rightBarButtonItem?.isEnabled = false
+        var isAllRight = self.navigationItem.rightBarButtonItem
+        
+        let user = AJWValidator(type: AJWValidatorType.string)
+        user?.addValidation(toEnsureMinimumLength: 5, invalidMessage: "用户名不能少于5位")
+        user?.addValidation(toEnsureMaximumLength: 15, invalidMessage: "用户名不能多于15位")
+        self.usertext.ajw_attach(user)
+        user?.validatorStateChangedHandler = {(newState:AJWValidatorState)->Void in
+            switch newState {
+            case AJWValidatorState.validationStateValid:
+                self.usertext.highlightState = .Default
+                self.userOK = true
+            default:
+                let errorMsg = user?.errorMessages.first as! String
+                self.usertext.highlightState = .Wrong(errorMsg)
+                self.userOK = false
+            }
+            
+            isAllRight?.isEnabled = self.userOK && self.mailOK && self.passOK
+        }
+        
+        let mail = AJWValidator(type: AJWValidatorType.string)
+        mail?.addValidationToEnsureValidEmail(withInvalidMessage: "邮箱地址格式有误")
+//        user?.addValidation(toEnsureMinimumLength: 5, invalidMessage: "用户名不能少于5位")
+//        user?.addValidation(toEnsureMaximumLength: 15, invalidMessage: "用户名不能多于15位")
+        self.mailtext.ajw_attach(mail)
+        mail?.validatorStateChangedHandler = {(newState:AJWValidatorState)->Void in
+            switch newState {
+            case AJWValidatorState.validationStateValid:
+                self.mailtext.highlightState = .Default
+                self.mailOK = true
+            default:
+                let errorMsg = mail?.errorMessages.first as! String
+                self.mailtext.highlightState = .Wrong(errorMsg)
+                self.mailOK = false
+            }
+            
+            isAllRight?.isEnabled = self.userOK && self.mailOK && self.passOK
+        }
+
+        let pass = AJWValidator(type: AJWValidatorType.string)
+        pass?.addValidation(toEnsureMinimumLength: 5, invalidMessage: "密码不能少于5位")
+        pass?.addValidation(toEnsureMaximumLength: 15, invalidMessage: "密码不能多于15位")
+        self.password.ajw_attach(pass)
+        pass?.validatorStateChangedHandler = {(newState:AJWValidatorState)->Void in
+            switch newState {
+            case AJWValidatorState.validationStateValid:
+                self.password.highlightState = .Default
+                self.passOK = true
+            default:
+                let errorMsg = pass?.errorMessages.first as! String
+                self.password.highlightState = .Wrong(errorMsg)
+                self.passOK = false
+            }
+            
+            isAllRight?.isEnabled = self.userOK && self.mailOK && self.passOK
+        }
+
+        
+//        self.navigationItem.rightBarButtonItem?.isEnabled = isAllRight
     }
 
     override func viewWillAppear(_ animated: Bool) {

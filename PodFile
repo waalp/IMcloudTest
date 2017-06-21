@@ -1,7 +1,10 @@
 platform:ios,'8.0'
 target 'IMcloudTest' do
+    #use_frameworks!
 pod 'RongCloudIM'
 pod 'KxMenu'
 pod 'PopMenu'
 pod 'JSAnimatedImagesView'
+pod 'AVOSCloud'
+pod 'AJWValidator'
 end

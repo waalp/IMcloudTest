@@ -1,4 +1,6 @@
 PODS:
+  - AJWValidator (0.0.8)
+  - AVOSCloud (5.0.2)
   - JSAnimatedImagesView (1.0.0):
     - MSWeakTimer (~> 1.0)
   - KxMenu (1)
@@ -7,42 +9,46 @@ PODS:
   - PopMenu (2.4):
     - pop
     - XHRealTimeBlur
-  - RongCloudIM (2.8.12):
-    - RongCloudIM/CallKit (= 2.8.12)
-    - RongCloudIM/CallLib (= 2.8.12)
-    - RongCloudIM/IMKit (= 2.8.12)
-    - RongCloudIM/IMLib (= 2.8.12)
-    - RongCloudIM/RedPacket (= 2.8.12)
-    - RongCloudIM/Sticker (= 2.8.12)
-  - RongCloudIM/CallKit (2.8.12):
+  - RongCloudIM (2.8.13):
+    - RongCloudIM/CallKit (= 2.8.13)
+    - RongCloudIM/CallLib (= 2.8.13)
+    - RongCloudIM/IMKit (= 2.8.13)
+    - RongCloudIM/IMLib (= 2.8.13)
+    - RongCloudIM/RedPacket (= 2.8.13)
+    - RongCloudIM/Sticker (= 2.8.13)
+  - RongCloudIM/CallKit (2.8.13):
     - RongCloudIM/CallLib
     - RongCloudIM/IMKit
-  - RongCloudIM/CallLib (2.8.12):
+  - RongCloudIM/CallLib (2.8.13):
     - RongCloudIM/IMLib
-  - RongCloudIM/IMKit (2.8.12):
+  - RongCloudIM/IMKit (2.8.13):
     - RongCloudIM/IMLib
-  - RongCloudIM/IMLib (2.8.12)
-  - RongCloudIM/RedPacket (2.8.12):
+  - RongCloudIM/IMLib (2.8.13)
+  - RongCloudIM/RedPacket (2.8.13):
     - RongCloudIM/IMKit
-  - RongCloudIM/Sticker (2.8.12):
+  - RongCloudIM/Sticker (2.8.13):
     - RongCloudIM/IMKit
   - XHRealTimeBlur (1.7)
 
 DEPENDENCIES:
+  - AJWValidator
+  - AVOSCloud
   - JSAnimatedImagesView
   - KxMenu
   - PopMenu
   - RongCloudIM
 
 SPEC CHECKSUMS:
+  AJWValidator: ed00557b9cdcc38a8216aa9ddbd76b4eadb73615
+  AVOSCloud: 01745f438fb9ef4f2cde2b992783a869cc1291e6
   JSAnimatedImagesView: d5c5f561280171ce13f1f08ba9834c47a1f27bfc
   KxMenu: c025365712f55fa99feb7830fbb7dea0e912be72
   MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   PopMenu: 26b97baeaf250070f4f61b93727ca86d127d7bc5
-  RongCloudIM: 13599772038afa20dc62aff70c620b9305e6ac96
+  RongCloudIM: bfaeb83dcfaf6b2039434f3692d328430de215c7
   XHRealTimeBlur: 661fadd5691ba2d349758e8fd5fbdb499ac55f8c
 
-PODFILE CHECKSUM: bf3fb3e02a6c24b42446cab5ae96e036f724e5a2
+PODFILE CHECKSUM: ce99462118702ba2dfa964eeebbc2660def03a9c
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1
